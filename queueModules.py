@@ -1,5 +1,5 @@
 #Building Basic Data Type
-    #basic enqueue and dequeue
+
 from collections import deque
 class Queue:
     def __init__(self, *elements):
@@ -17,3 +17,8 @@ class Queue:
 
     def dequeue(self):
         return self._elements.popleft()
+
+#STACK DATA TYPE MODULE
+class Stack(Queue):
+    def dequeue(self):
+        return self._elements.pop()
