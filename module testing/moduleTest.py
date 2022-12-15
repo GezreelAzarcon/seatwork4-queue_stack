@@ -1,3 +1,4 @@
+#=======================================================================================================================================================
 #QUEUE DATA TYPE
 
 # from queueModules import Queue
@@ -23,21 +24,16 @@
 
 #QUEUES USING HEAP (heappush and heappop)
 
-import heapq
+# import heapq
+# fruits = []
+# heapq.heappush(fruits, "orange")
+# heapq.heappush(fruits, "apple") 
+# heapq.heappush(fruits, "banana")
+# heapq.heappop(fruits)       #removes the first one on the list but sorts the remaining by itself.
+# heapq.heappop(fruits)
+# heapq.heappop(fruits)
+# print(fruits)
 
-fruits = []
-heapq.heappush(fruits, "orange")
-heapq.heappush(fruits, "apple") 
-heapq.heappush(fruits, "banana")
-
-heapq.heappop(fruits)       #removes the first one on the list but sorts the remaining by itself.
-heapq.heappop(fruits)
-heapq.heappop(fruits)
-
-print(fruits)
-
-
-
-
+#=======================================================================================================================================================
 
 
