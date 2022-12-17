@@ -227,4 +227,5 @@ graph "Cities in the United Kingdom" {
     york -- durham [distance=71, label=71]
     york -- ripon [distance=27, label=27]
     york -- wakefield [distance=40, label=40]
+    
 }
