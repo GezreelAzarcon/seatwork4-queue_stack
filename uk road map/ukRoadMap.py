@@ -37,6 +37,8 @@ def weight(node1, node2, weights):
 def by_distance(weights):
      return float(weights["distance"])
 
-for city, weights in nx.dijkstra_path(graph, city1, city2, weight):
+print("==========================================================================")
+print()
+for city in nx.dijkstra_path(graph, city1, city2, weight):
     print(city.name)
 
